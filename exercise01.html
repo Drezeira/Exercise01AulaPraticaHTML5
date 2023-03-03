@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content=""width=device-width, initial-scale="1.0">
+        <title>Documento</title>
+    </head>
+<body>
+    <h1>Pizzaria X-Podrão CWB</h1>
+    <form method="get" action=""teste.jsp">
+        Como vou te chamar, chefia? <input type="text" name="nome"> <br>
+        Email: <input type="email" name="email"> <br>
+        Tamanho da sua fome:
+        <input type="radio" name="tamanho" value="G"> Gigantesca
+        <input type="radio" name="tamanho" value="M"> Meio sem fome
+        <input type="radio" name="tamanho" value="P"> Pouca coisa pra comer
+        <br>
+        Sabor: <select name="sabor">
+            <option>Portuguesa</option>
+            <option>Frango</option>
+            <option>Mexicana</option>
+        </select>
+        <br>
+        Adicionais pra comer demais:
+        <input type="checkbox" name="borda" value="sim"> Borda Chocolate
+        <input type="checkbox" name="borda" value="sim"> Borda Queijo
+        <input type="checkbox" name="borda" value="sim"> Borda Tradicional
+        <br>
+        Data Entrega: <input type="date" name="dataEntrega">
+        <br>
+        Comentário:<br>
+        <textarea name="msg" rows="10" cols="30"></textarea>
+        <br>
+        <input type="submit">
+
+    </form>
+</body>
+</html>
